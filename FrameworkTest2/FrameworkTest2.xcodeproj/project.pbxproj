@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04ABC5CF243AC38400DA0871 /* FrameworkTest2.h in Headers */ = {isa = PBXBuildFile; fileRef = 04ABC5CD243AC38300DA0871 /* FrameworkTest2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04ABC628243AC3AE00DA0871 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5D8243AC3AE00DA0871 /* TaskDelegate.swift */; };
+		04ABC629243AC3AE00DA0871 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5D9243AC3AE00DA0871 /* MultipartFormData.swift */; };
+		04ABC62A243AC3AE00DA0871 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5DA243AC3AE00DA0871 /* NetworkReachabilityManager.swift */; };
+		04ABC62B243AC3AE00DA0871 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5DB243AC3AE00DA0871 /* Timeline.swift */; };
+		04ABC62C243AC3AE00DA0871 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5DC243AC3AE00DA0871 /* DispatchQueue+Alamofire.swift */; };
+		04ABC62D243AC3AE00DA0871 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5DD243AC3AE00DA0871 /* Result.swift */; };
+		04ABC62E243AC3AE00DA0871 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5DE243AC3AE00DA0871 /* ParameterEncoding.swift */; };
+		04ABC62F243AC3AE00DA0871 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5DF243AC3AE00DA0871 /* AFError.swift */; };
+		04ABC630243AC3AE00DA0871 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5E0243AC3AE00DA0871 /* Validation.swift */; };
+		04ABC631243AC3AE00DA0871 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5E1243AC3AE00DA0871 /* Notifications.swift */; };
+		04ABC632243AC3AE00DA0871 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5E2243AC3AE00DA0871 /* Response.swift */; };
+		04ABC633243AC3AE00DA0871 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5E3243AC3AE00DA0871 /* Alamofire.swift */; };
+		04ABC634243AC3AE00DA0871 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5E4243AC3AE00DA0871 /* Request.swift */; };
+		04ABC635243AC3AE00DA0871 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5E5243AC3AE00DA0871 /* SessionManager.swift */; };
+		04ABC636243AC3AE00DA0871 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5E6243AC3AE00DA0871 /* ResponseSerialization.swift */; };
+		04ABC637243AC3AE00DA0871 /* Alamofire.h in Headers */ = {isa = PBXBuildFile; fileRef = 04ABC5E7243AC3AE00DA0871 /* Alamofire.h */; };
+		04ABC638243AC3AE00DA0871 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5E8243AC3AE00DA0871 /* ServerTrustPolicy.swift */; };
+		04ABC639243AC3AE00DA0871 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5E9243AC3AE00DA0871 /* SessionDelegate.swift */; };
+		04ABC63A243AC3AE00DA0871 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5EB243AC3AE00DA0871 /* ImageCache.swift */; };
+		04ABC63B243AC3AE00DA0871 /* UIImage+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5EC243AC3AE00DA0871 /* UIImage+AlamofireImage.swift */; };
+		04ABC63C243AC3AE00DA0871 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5ED243AC3AE00DA0871 /* AFIError.swift */; };
+		04ABC63D243AC3AE00DA0871 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5EE243AC3AE00DA0871 /* Image.swift */; };
+		04ABC63E243AC3AE00DA0871 /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5EF243AC3AE00DA0871 /* UIButton+AlamofireImage.swift */; };
+		04ABC63F243AC3AE00DA0871 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5F0243AC3AE00DA0871 /* ImageDownloader.swift */; };
+		04ABC640243AC3AE00DA0871 /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5F1243AC3AE00DA0871 /* UIImageView+AlamofireImage.swift */; };
+		04ABC641243AC3AE00DA0871 /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5F2243AC3AE00DA0871 /* Request+AlamofireImage.swift */; };
+		04ABC642243AC3AE00DA0871 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5F3243AC3AE00DA0871 /* ImageFilter.swift */; };
+		04ABC643243AC3AE00DA0871 /* AlamofireImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 04ABC5F4243AC3AE00DA0871 /* AlamofireImage.h */; };
+		04ABC644243AC3AE00DA0871 /* YLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5F6243AC3AE00DA0871 /* YLImageView.swift */; };
+		04ABC645243AC3AE00DA0871 /* YLGIFImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5F7243AC3AE00DA0871 /* YLGIFImage.swift */; };
+		04ABC646243AC3AE00DA0871 /* GoogleAnalitycs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5FA243AC3AE00DA0871 /* GoogleAnalitycs.swift */; };
+		04ABC647243AC3AE00DA0871 /* Sponsor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5FD243AC3AE00DA0871 /* Sponsor.swift */; };
+		04ABC648243AC3AE00DA0871 /* TabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5FE243AC3AE00DA0871 /* TabMenu.swift */; };
+		04ABC649243AC3AE00DA0871 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC5FF243AC3AE00DA0871 /* Emoji.swift */; };
+		04ABC64A243AC3AE00DA0871 /* TabMenuDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC601243AC3AE00DA0871 /* TabMenuDao.swift */; };
+		04ABC64B243AC3AE00DA0871 /* EmojiDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC602243AC3AE00DA0871 /* EmojiDao.swift */; };
+		04ABC64C243AC3AE00DA0871 /* KeyboardNumericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC604243AC3AE00DA0871 /* KeyboardNumericViewController.swift */; };
+		04ABC64D243AC3AE00DA0871 /* EmojiKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC605243AC3AE00DA0871 /* EmojiKeyboardViewController.swift */; };
+		04ABC64E243AC3AE00DA0871 /* KeyboardAlphabeticController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC606243AC3AE00DA0871 /* KeyboardAlphabeticController.swift */; };
+		04ABC64F243AC3AE00DA0871 /* UIButton+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC608243AC3AE00DA0871 /* UIButton+Keyboard.swift */; };
+		04ABC650243AC3AE00DA0871 /* UIColor+keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC609243AC3AE00DA0871 /* UIColor+keyboard.swift */; };
+		04ABC651243AC3AE00DA0871 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC60B243AC3AE00DA0871 /* Config.swift */; };
+		04ABC652243AC3AE00DA0871 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC60C243AC3AE00DA0871 /* Reachability.swift */; };
+		04ABC653243AC3AE00DA0871 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC60D243AC3AE00DA0871 /* Util.swift */; };
+		04ABC654243AC3AE00DA0871 /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC60E243AC3AE00DA0871 /* AppContext.swift */; };
+		04ABC655243AC3AE00DA0871 /* EmojiPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC610243AC3AE00DA0871 /* EmojiPage.swift */; };
+		04ABC656243AC3AE00DA0871 /* EmojiSponsorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC611243AC3AE00DA0871 /* EmojiSponsorViewCell.swift */; };
+		04ABC657243AC3AE00DA0871 /* OtherActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC612243AC3AE00DA0871 /* OtherActionsViewController.swift */; };
+		04ABC658243AC3AE00DA0871 /* EmojisContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC613243AC3AE00DA0871 /* EmojisContainer.swift */; };
+		04ABC659243AC3AE00DA0871 /* AccessGrantedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC614243AC3AE00DA0871 /* AccessGrantedView.swift */; };
+		04ABC65A243AC3AE00DA0871 /* EmojiViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC615243AC3AE00DA0871 /* EmojiViewCell.swift */; };
+		04ABC65B243AC3AE00DA0871 /* CopyPasteEmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC616243AC3AE00DA0871 /* CopyPasteEmojiView.swift */; };
+		04ABC65C243AC3AE00DA0871 /* MenuBottomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC617243AC3AE00DA0871 /* MenuBottomContainer.swift */; };
+		04ABC65D243AC3AE00DA0871 /* OtherActionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC618243AC3AE00DA0871 /* OtherActionViewCell.swift */; };
+		04ABC65E243AC3AE00DA0871 /* EmojiKeyBoardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC61A243AC3AE00DA0871 /* EmojiKeyBoardService.swift */; };
+		04ABC65F243AC3AE00DA0871 /* KeyboardNumericViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC61D243AC3AE00DA0871 /* KeyboardNumericViewController.xib */; };
+		04ABC660243AC3AE00DA0871 /* KeyboardAlphabeticController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC61E243AC3AE00DA0871 /* KeyboardAlphabeticController.xib */; };
+		04ABC661243AC3AE00DA0871 /* EmojiKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC61F243AC3AE00DA0871 /* EmojiKeyboardViewController.xib */; };
+		04ABC662243AC3AE00DA0871 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC620243AC3AE00DA0871 /* Asset.xcassets */; };
+		04ABC663243AC3AE00DA0871 /* OtherActionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC622243AC3AE00DA0871 /* OtherActionViewCell.xib */; };
+		04ABC664243AC3AE00DA0871 /* EmojiViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC623243AC3AE00DA0871 /* EmojiViewCell.xib */; };
+		04ABC665243AC3AE00DA0871 /* OtherActionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC624243AC3AE00DA0871 /* OtherActionsViewController.xib */; };
+		04ABC666243AC3AE00DA0871 /* CopyPasteEmojiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC625243AC3AE00DA0871 /* CopyPasteEmojiView.xib */; };
+		04ABC667243AC3AE00DA0871 /* EmojiSponsorViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC626243AC3AE00DA0871 /* EmojiSponsorViewCell.xib */; };
+		04ABC668243AC3AE00DA0871 /* AccessGrantedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC627243AC3AE00DA0871 /* AccessGrantedView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04ABC5CA243AC38300DA0871 /* FrameworkTest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ABC5CD243AC38300DA0871 /* FrameworkTest2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkTest2.h; sourceTree = "<group>"; };
+		04ABC5CE243AC38300DA0871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ABC5D8243AC3AE00DA0871 /* TaskDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		04ABC5D9243AC3AE00DA0871 /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		04ABC5DA243AC3AE00DA0871 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		04ABC5DB243AC3AE00DA0871 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		04ABC5DC243AC3AE00DA0871 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		04ABC5DD243AC3AE00DA0871 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		04ABC5DE243AC3AE00DA0871 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		04ABC5DF243AC3AE00DA0871 /* AFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		04ABC5E0243AC3AE00DA0871 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		04ABC5E1243AC3AE00DA0871 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		04ABC5E2243AC3AE00DA0871 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		04ABC5E3243AC3AE00DA0871 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		04ABC5E4243AC3AE00DA0871 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		04ABC5E5243AC3AE00DA0871 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		04ABC5E6243AC3AE00DA0871 /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		04ABC5E7243AC3AE00DA0871 /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alamofire.h; sourceTree = "<group>"; };
+		04ABC5E8243AC3AE00DA0871 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		04ABC5E9243AC3AE00DA0871 /* SessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		04ABC5EB243AC3AE00DA0871 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		04ABC5EC243AC3AE00DA0871 /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
+		04ABC5ED243AC3AE00DA0871 /* AFIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFIError.swift; sourceTree = "<group>"; };
+		04ABC5EE243AC3AE00DA0871 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		04ABC5EF243AC3AE00DA0871 /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
+		04ABC5F0243AC3AE00DA0871 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		04ABC5F1243AC3AE00DA0871 /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
+		04ABC5F2243AC3AE00DA0871 /* Request+AlamofireImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Request+AlamofireImage.swift"; sourceTree = "<group>"; };
+		04ABC5F3243AC3AE00DA0871 /* ImageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilter.swift; sourceTree = "<group>"; };
+		04ABC5F4243AC3AE00DA0871 /* AlamofireImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlamofireImage.h; sourceTree = "<group>"; };
+		04ABC5F6243AC3AE00DA0871 /* YLImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLImageView.swift; sourceTree = "<group>"; };
+		04ABC5F7243AC3AE00DA0871 /* YLGIFImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLGIFImage.swift; sourceTree = "<group>"; };
+		04ABC5FA243AC3AE00DA0871 /* GoogleAnalitycs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAnalitycs.swift; sourceTree = "<group>"; };
+		04ABC5FD243AC3AE00DA0871 /* Sponsor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sponsor.swift; sourceTree = "<group>"; };
+		04ABC5FE243AC3AE00DA0871 /* TabMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabMenu.swift; sourceTree = "<group>"; };
+		04ABC5FF243AC3AE00DA0871 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		04ABC601243AC3AE00DA0871 /* TabMenuDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabMenuDao.swift; sourceTree = "<group>"; };
+		04ABC602243AC3AE00DA0871 /* EmojiDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiDao.swift; sourceTree = "<group>"; };
+		04ABC604243AC3AE00DA0871 /* KeyboardNumericViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardNumericViewController.swift; sourceTree = "<group>"; };
+		04ABC605243AC3AE00DA0871 /* EmojiKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiKeyboardViewController.swift; sourceTree = "<group>"; };
+		04ABC606243AC3AE00DA0871 /* KeyboardAlphabeticController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAlphabeticController.swift; sourceTree = "<group>"; };
+		04ABC608243AC3AE00DA0871 /* UIButton+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Keyboard.swift"; sourceTree = "<group>"; };
+		04ABC609243AC3AE00DA0871 /* UIColor+keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+keyboard.swift"; sourceTree = "<group>"; };
+		04ABC60B243AC3AE00DA0871 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		04ABC60C243AC3AE00DA0871 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		04ABC60D243AC3AE00DA0871 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		04ABC60E243AC3AE00DA0871 /* AppContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		04ABC610243AC3AE00DA0871 /* EmojiPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiPage.swift; sourceTree = "<group>"; };
+		04ABC611243AC3AE00DA0871 /* EmojiSponsorViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiSponsorViewCell.swift; sourceTree = "<group>"; };
+		04ABC612243AC3AE00DA0871 /* OtherActionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherActionsViewController.swift; sourceTree = "<group>"; };
+		04ABC613243AC3AE00DA0871 /* EmojisContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojisContainer.swift; sourceTree = "<group>"; };
+		04ABC614243AC3AE00DA0871 /* AccessGrantedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessGrantedView.swift; sourceTree = "<group>"; };
+		04ABC615243AC3AE00DA0871 /* EmojiViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiViewCell.swift; sourceTree = "<group>"; };
+		04ABC616243AC3AE00DA0871 /* CopyPasteEmojiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyPasteEmojiView.swift; sourceTree = "<group>"; };
+		04ABC617243AC3AE00DA0871 /* MenuBottomContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBottomContainer.swift; sourceTree = "<group>"; };
+		04ABC618243AC3AE00DA0871 /* OtherActionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherActionViewCell.swift; sourceTree = "<group>"; };
+		04ABC61A243AC3AE00DA0871 /* EmojiKeyBoardService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiKeyBoardService.swift; sourceTree = "<group>"; };
+		04ABC61D243AC3AE00DA0871 /* KeyboardNumericViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardNumericViewController.xib; sourceTree = "<group>"; };
+		04ABC61E243AC3AE00DA0871 /* KeyboardAlphabeticController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardAlphabeticController.xib; sourceTree = "<group>"; };
+		04ABC61F243AC3AE00DA0871 /* EmojiKeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiKeyboardViewController.xib; sourceTree = "<group>"; };
+		04ABC620243AC3AE00DA0871 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		04ABC622243AC3AE00DA0871 /* OtherActionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherActionViewCell.xib; sourceTree = "<group>"; };
+		04ABC623243AC3AE00DA0871 /* EmojiViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiViewCell.xib; sourceTree = "<group>"; };
+		04ABC624243AC3AE00DA0871 /* OtherActionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherActionsViewController.xib; sourceTree = "<group>"; };
+		04ABC625243AC3AE00DA0871 /* CopyPasteEmojiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CopyPasteEmojiView.xib; sourceTree = "<group>"; };
+		04ABC626243AC3AE00DA0871 /* EmojiSponsorViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiSponsorViewCell.xib; sourceTree = "<group>"; };
+		04ABC627243AC3AE00DA0871 /* AccessGrantedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessGrantedView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04ABC5C7243AC38300DA0871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04ABC5C0243AC38300DA0871 = {
+			isa = PBXGroup;
+			children = (
+				04ABC5CC243AC38300DA0871 /* FrameworkTest2 */,
+				04ABC5CB243AC38300DA0871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04ABC5CB243AC38300DA0871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC5CA243AC38300DA0871 /* FrameworkTest2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04ABC5CC243AC38300DA0871 /* FrameworkTest2 */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC61B243AC3AE00DA0871 /* Resources */,
+				04ABC5D5243AC3AE00DA0871 /* Sources */,
+				04ABC5CD243AC38300DA0871 /* FrameworkTest2.h */,
+				04ABC5CE243AC38300DA0871 /* Info.plist */,
+			);
+			path = FrameworkTest2;
+			sourceTree = "<group>";
+		};
+		04ABC5D5243AC3AE00DA0871 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC5D6243AC3AE00DA0871 /* Framework */,
+				04ABC5F8243AC3AE00DA0871 /* Analitycs */,
+				04ABC5FB243AC3AE00DA0871 /* Models */,
+				04ABC603243AC3AE00DA0871 /* ViewControllers */,
+				04ABC607243AC3AE00DA0871 /* UIkit+View */,
+				04ABC60A243AC3AE00DA0871 /* AppContext */,
+				04ABC60F243AC3AE00DA0871 /* Views */,
+				04ABC619243AC3AE00DA0871 /* Services */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		04ABC5D6243AC3AE00DA0871 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC5D7243AC3AE00DA0871 /* Alamofire */,
+				04ABC5EA243AC3AE00DA0871 /* AmofireImage */,
+				04ABC5F5243AC3AE00DA0871 /* YLGIFImage-Swift */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		04ABC5D7243AC3AE00DA0871 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC5D8243AC3AE00DA0871 /* TaskDelegate.swift */,
+				04ABC5D9243AC3AE00DA0871 /* MultipartFormData.swift */,
+				04ABC5DA243AC3AE00DA0871 /* NetworkReachabilityManager.swift */,
+				04ABC5DB243AC3AE00DA0871 /* Timeline.swift */,
+				04ABC5DC243AC3AE00DA0871 /* DispatchQueue+Alamofire.swift */,
+				04ABC5DD243AC3AE00DA0871 /* Result.swift */,
+				04ABC5DE243AC3AE00DA0871 /* ParameterEncoding.swift */,
+				04ABC5DF243AC3AE00DA0871 /* AFError.swift */,
+				04ABC5E0243AC3AE00DA0871 /* Validation.swift */,
+				04ABC5E1243AC3AE00DA0871 /* Notifications.swift */,
+				04ABC5E2243AC3AE00DA0871 /* Response.swift */,
+				04ABC5E3243AC3AE00DA0871 /* Alamofire.swift */,
+				04ABC5E4243AC3AE00DA0871 /* Request.swift */,
+				04ABC5E5243AC3AE00DA0871 /* SessionManager.swift */,
+				04ABC5E6243AC3AE00DA0871 /* ResponseSerialization.swift */,
+				04ABC5E7243AC3AE00DA0871 /* Alamofire.h */,
+				04ABC5E8243AC3AE00DA0871 /* ServerTrustPolicy.swift */,
+				04ABC5E9243AC3AE00DA0871 /* SessionDelegate.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		04ABC5EA243AC3AE00DA0871 /* AmofireImage */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC5EB243AC3AE00DA0871 /* ImageCache.swift */,
+				04ABC5EC243AC3AE00DA0871 /* UIImage+AlamofireImage.swift */,
+				04ABC5ED243AC3AE00DA0871 /* AFIError.swift */,
+				04ABC5EE243AC3AE00DA0871 /* Image.swift */,
+				04ABC5EF243AC3AE00DA0871 /* UIButton+AlamofireImage.swift */,
+				04ABC5F0243AC3AE00DA0871 /* ImageDownloader.swift */,
+				04ABC5F1243AC3AE00DA0871 /* UIImageView+AlamofireImage.swift */,
+				04ABC5F2243AC3AE00DA0871 /* Request+AlamofireImage.swift */,
+				04ABC5F3243AC3AE00DA0871 /* ImageFilter.swift */,
+				04ABC5F4243AC3AE00DA0871 /* AlamofireImage.h */,
+			);
+			path = AmofireImage;
+			sourceTree = "<group>";
+		};
+		04ABC5F5243AC3AE00DA0871 /* YLGIFImage-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC5F6243AC3AE00DA0871 /* YLImageView.swift */,
+				04ABC5F7243AC3AE00DA0871 /* YLGIFImage.swift */,
+			);
+			path = "YLGIFImage-Swift";
+			sourceTree = "<group>";
+		};
+		04ABC5F8243AC3AE00DA0871 /* Analitycs */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC5F9243AC3AE00DA0871 /* Google */,
+			);
+			path = Analitycs;
+			sourceTree = "<group>";
+		};
+		04ABC5F9243AC3AE00DA0871 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC5FA243AC3AE00DA0871 /* GoogleAnalitycs.swift */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		04ABC5FB243AC3AE00DA0871 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC5FC243AC3AE00DA0871 /* DTO */,
+				04ABC600243AC3AE00DA0871 /* DAO */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04ABC5FC243AC3AE00DA0871 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC5FD243AC3AE00DA0871 /* Sponsor.swift */,
+				04ABC5FE243AC3AE00DA0871 /* TabMenu.swift */,
+				04ABC5FF243AC3AE00DA0871 /* Emoji.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		04ABC600243AC3AE00DA0871 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC601243AC3AE00DA0871 /* TabMenuDao.swift */,
+				04ABC602243AC3AE00DA0871 /* EmojiDao.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		04ABC603243AC3AE00DA0871 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC604243AC3AE00DA0871 /* KeyboardNumericViewController.swift */,
+				04ABC605243AC3AE00DA0871 /* EmojiKeyboardViewController.swift */,
+				04ABC606243AC3AE00DA0871 /* KeyboardAlphabeticController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04ABC607243AC3AE00DA0871 /* UIkit+View */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC608243AC3AE00DA0871 /* UIButton+Keyboard.swift */,
+				04ABC609243AC3AE00DA0871 /* UIColor+keyboard.swift */,
+			);
+			path = "UIkit+View";
+			sourceTree = "<group>";
+		};
+		04ABC60A243AC3AE00DA0871 /* AppContext */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC60B243AC3AE00DA0871 /* Config.swift */,
+				04ABC60C243AC3AE00DA0871 /* Reachability.swift */,
+				04ABC60D243AC3AE00DA0871 /* Util.swift */,
+				04ABC60E243AC3AE00DA0871 /* AppContext.swift */,
+			);
+			path = AppContext;
+			sourceTree = "<group>";
+		};
+		04ABC60F243AC3AE00DA0871 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC610243AC3AE00DA0871 /* EmojiPage.swift */,
+				04ABC611243AC3AE00DA0871 /* EmojiSponsorViewCell.swift */,
+				04ABC612243AC3AE00DA0871 /* OtherActionsViewController.swift */,
+				04ABC613243AC3AE00DA0871 /* EmojisContainer.swift */,
+				04ABC614243AC3AE00DA0871 /* AccessGrantedView.swift */,
+				04ABC615243AC3AE00DA0871 /* EmojiViewCell.swift */,
+				04ABC616243AC3AE00DA0871 /* CopyPasteEmojiView.swift */,
+				04ABC617243AC3AE00DA0871 /* MenuBottomContainer.swift */,
+				04ABC618243AC3AE00DA0871 /* OtherActionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04ABC619243AC3AE00DA0871 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC61A243AC3AE00DA0871 /* EmojiKeyBoardService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04ABC61B243AC3AE00DA0871 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC61C243AC3AE00DA0871 /* ViewControllers */,
+				04ABC620243AC3AE00DA0871 /* Asset.xcassets */,
+				04ABC621243AC3AE00DA0871 /* Views */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04ABC61C243AC3AE00DA0871 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC61D243AC3AE00DA0871 /* KeyboardNumericViewController.xib */,
+				04ABC61E243AC3AE00DA0871 /* KeyboardAlphabeticController.xib */,
+				04ABC61F243AC3AE00DA0871 /* EmojiKeyboardViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04ABC621243AC3AE00DA0871 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC622243AC3AE00DA0871 /* OtherActionViewCell.xib */,
+				04ABC623243AC3AE00DA0871 /* EmojiViewCell.xib */,
+				04ABC624243AC3AE00DA0871 /* OtherActionsViewController.xib */,
+				04ABC625243AC3AE00DA0871 /* CopyPasteEmojiView.xib */,
+				04ABC626243AC3AE00DA0871 /* EmojiSponsorViewCell.xib */,
+				04ABC627243AC3AE00DA0871 /* AccessGrantedView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04ABC5C5243AC38300DA0871 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABC5CF243AC38400DA0871 /* FrameworkTest2.h in Headers */,
+				04ABC637243AC3AE00DA0871 /* Alamofire.h in Headers */,
+				04ABC643243AC3AE00DA0871 /* AlamofireImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04ABC5C9243AC38300DA0871 /* FrameworkTest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ABC5D2243AC38400DA0871 /* Build configuration list for PBXNativeTarget "FrameworkTest2" */;
+			buildPhases = (
+				04ABC5C5243AC38300DA0871 /* Headers */,
+				04ABC5C6243AC38300DA0871 /* Sources */,
+				04ABC5C7243AC38300DA0871 /* Frameworks */,
+				04ABC5C8243AC38300DA0871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrameworkTest2;
+			productName = FrameworkTest2;
+			productReference = 04ABC5CA243AC38300DA0871 /* FrameworkTest2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04ABC5C1243AC38300DA0871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = BrangerBriz;
+				TargetAttributes = {
+					04ABC5C9243AC38300DA0871 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 04ABC5C4243AC38300DA0871 /* Build configuration list for PBXProject "FrameworkTest2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04ABC5C0243AC38300DA0871;
+			productRefGroup = 04ABC5CB243AC38300DA0871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04ABC5C9243AC38300DA0871 /* FrameworkTest2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04ABC5C8243AC38300DA0871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABC663243AC3AE00DA0871 /* OtherActionViewCell.xib in Resources */,
+				04ABC661243AC3AE00DA0871 /* EmojiKeyboardViewController.xib in Resources */,
+				04ABC660243AC3AE00DA0871 /* KeyboardAlphabeticController.xib in Resources */,
+				04ABC662243AC3AE00DA0871 /* Asset.xcassets in Resources */,
+				04ABC668243AC3AE00DA0871 /* AccessGrantedView.xib in Resources */,
+				04ABC65F243AC3AE00DA0871 /* KeyboardNumericViewController.xib in Resources */,
+				04ABC665243AC3AE00DA0871 /* OtherActionsViewController.xib in Resources */,
+				04ABC666243AC3AE00DA0871 /* CopyPasteEmojiView.xib in Resources */,
+				04ABC667243AC3AE00DA0871 /* EmojiSponsorViewCell.xib in Resources */,
+				04ABC664243AC3AE00DA0871 /* EmojiViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04ABC5C6243AC38300DA0871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABC658243AC3AE00DA0871 /* EmojisContainer.swift in Sources */,
+				04ABC654243AC3AE00DA0871 /* AppContext.swift in Sources */,
+				04ABC647243AC3AE00DA0871 /* Sponsor.swift in Sources */,
+				04ABC631243AC3AE00DA0871 /* Notifications.swift in Sources */,
+				04ABC645243AC3AE00DA0871 /* YLGIFImage.swift in Sources */,
+				04ABC657243AC3AE00DA0871 /* OtherActionsViewController.swift in Sources */,
+				04ABC642243AC3AE00DA0871 /* ImageFilter.swift in Sources */,
+				04ABC64E243AC3AE00DA0871 /* KeyboardAlphabeticController.swift in Sources */,
+				04ABC641243AC3AE00DA0871 /* Request+AlamofireImage.swift in Sources */,
+				04ABC634243AC3AE00DA0871 /* Request.swift in Sources */,
+				04ABC62E243AC3AE00DA0871 /* ParameterEncoding.swift in Sources */,
+				04ABC65D243AC3AE00DA0871 /* OtherActionViewCell.swift in Sources */,
+				04ABC63F243AC3AE00DA0871 /* ImageDownloader.swift in Sources */,
+				04ABC63B243AC3AE00DA0871 /* UIImage+AlamofireImage.swift in Sources */,
+				04ABC62F243AC3AE00DA0871 /* AFError.swift in Sources */,
+				04ABC650243AC3AE00DA0871 /* UIColor+keyboard.swift in Sources */,
+				04ABC62D243AC3AE00DA0871 /* Result.swift in Sources */,
+				04ABC62B243AC3AE00DA0871 /* Timeline.swift in Sources */,
+				04ABC63D243AC3AE00DA0871 /* Image.swift in Sources */,
+				04ABC63E243AC3AE00DA0871 /* UIButton+AlamofireImage.swift in Sources */,
+				04ABC63C243AC3AE00DA0871 /* AFIError.swift in Sources */,
+				04ABC659243AC3AE00DA0871 /* AccessGrantedView.swift in Sources */,
+				04ABC635243AC3AE00DA0871 /* SessionManager.swift in Sources */,
+				04ABC630243AC3AE00DA0871 /* Validation.swift in Sources */,
+				04ABC633243AC3AE00DA0871 /* Alamofire.swift in Sources */,
+				04ABC65E243AC3AE00DA0871 /* EmojiKeyBoardService.swift in Sources */,
+				04ABC629243AC3AE00DA0871 /* MultipartFormData.swift in Sources */,
+				04ABC632243AC3AE00DA0871 /* Response.swift in Sources */,
+				04ABC64D243AC3AE00DA0871 /* EmojiKeyboardViewController.swift in Sources */,
+				04ABC656243AC3AE00DA0871 /* EmojiSponsorViewCell.swift in Sources */,
+				04ABC639243AC3AE00DA0871 /* SessionDelegate.swift in Sources */,
+				04ABC64C243AC3AE00DA0871 /* KeyboardNumericViewController.swift in Sources */,
+				04ABC65A243AC3AE00DA0871 /* EmojiViewCell.swift in Sources */,
+				04ABC653243AC3AE00DA0871 /* Util.swift in Sources */,
+				04ABC64F243AC3AE00DA0871 /* UIButton+Keyboard.swift in Sources */,
+				04ABC646243AC3AE00DA0871 /* GoogleAnalitycs.swift in Sources */,
+				04ABC63A243AC3AE00DA0871 /* ImageCache.swift in Sources */,
+				04ABC640243AC3AE00DA0871 /* UIImageView+AlamofireImage.swift in Sources */,
+				04ABC65B243AC3AE00DA0871 /* CopyPasteEmojiView.swift in Sources */,
+				04ABC638243AC3AE00DA0871 /* ServerTrustPolicy.swift in Sources */,
+				04ABC64B243AC3AE00DA0871 /* EmojiDao.swift in Sources */,
+				04ABC62C243AC3AE00DA0871 /* DispatchQueue+Alamofire.swift in Sources */,
+				04ABC652243AC3AE00DA0871 /* Reachability.swift in Sources */,
+				04ABC649243AC3AE00DA0871 /* Emoji.swift in Sources */,
+				04ABC64A243AC3AE00DA0871 /* TabMenuDao.swift in Sources */,
+				04ABC65C243AC3AE00DA0871 /* MenuBottomContainer.swift in Sources */,
+				04ABC62A243AC3AE00DA0871 /* NetworkReachabilityManager.swift in Sources */,
+				04ABC648243AC3AE00DA0871 /* TabMenu.swift in Sources */,
+				04ABC644243AC3AE00DA0871 /* YLImageView.swift in Sources */,
+				04ABC651243AC3AE00DA0871 /* Config.swift in Sources */,
+				04ABC636243AC3AE00DA0871 /* ResponseSerialization.swift in Sources */,
+				04ABC628243AC3AE00DA0871 /* TaskDelegate.swift in Sources */,
+				04ABC655243AC3AE00DA0871 /* EmojiPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04ABC5D0243AC38400DA0871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04ABC5D1243AC38400DA0871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		04ABC5D3243AC38400DA0871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5K9V3Z52PJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FrameworkTest2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brangerbriz.FrameworkTest2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04ABC5D4243AC38400DA0871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5K9V3Z52PJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FrameworkTest2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brangerbriz.FrameworkTest2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04ABC5C4243AC38300DA0871 /* Build configuration list for PBXProject "FrameworkTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABC5D0243AC38400DA0871 /* Debug */,
+				04ABC5D1243AC38400DA0871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ABC5D2243AC38400DA0871 /* Build configuration list for PBXNativeTarget "FrameworkTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABC5D3243AC38400DA0871 /* Debug */,
+				04ABC5D4243AC38400DA0871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04ABC5C1243AC38300DA0871 /* Project object */;
+}
