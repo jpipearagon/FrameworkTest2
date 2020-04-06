@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -73,7 +73,54 @@
 		04ABC666243AC3AE00DA0871 /* CopyPasteEmojiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC625243AC3AE00DA0871 /* CopyPasteEmojiView.xib */; };
 		04ABC667243AC3AE00DA0871 /* EmojiSponsorViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC626243AC3AE00DA0871 /* EmojiSponsorViewCell.xib */; };
 		04ABC668243AC3AE00DA0871 /* AccessGrantedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC627243AC3AE00DA0871 /* AccessGrantedView.xib */; };
+		04ABC68D243ACD6B00DA0871 /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 04ABC68C243ACD6B00DA0871 /* Firebase.h */; };
+		04ABC6BB243AD90800DA0871 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A6243AD8F600DA0871 /* FIRAnalyticsConnector.framework */; };
+		04ABC6BC243AD90800DA0871 /* FIRAnalyticsConnector.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A6243AD8F600DA0871 /* FIRAnalyticsConnector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04ABC6BD243AD90A00DA0871 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AA243AD8F800DA0871 /* FirebaseAnalytics.framework */; };
+		04ABC6BE243AD90A00DA0871 /* FirebaseAnalytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AA243AD8F800DA0871 /* FirebaseAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04ABC6BF243AD90C00DA0871 /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AB243AD8F800DA0871 /* FirebaseCore.xcframework */; };
+		04ABC6C0243AD90C00DA0871 /* FirebaseCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AB243AD8F800DA0871 /* FirebaseCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		04ABC6C1243AD90D00DA0871 /* FirebaseCoreDiagnostics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A9243AD8F800DA0871 /* FirebaseCoreDiagnostics.xcframework */; };
+		04ABC6C2243AD90D00DA0871 /* FirebaseCoreDiagnostics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A9243AD8F800DA0871 /* FirebaseCoreDiagnostics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		04ABC6C3243AD90F00DA0871 /* FirebaseInstallations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A5243AD8F600DA0871 /* FirebaseInstallations.xcframework */; };
+		04ABC6C4243AD90F00DA0871 /* FirebaseInstallations.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A5243AD8F600DA0871 /* FirebaseInstallations.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		04ABC6C5243AD91000DA0871 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AD243AD8F900DA0871 /* GoogleAppMeasurement.framework */; };
+		04ABC6C6243AD91000DA0871 /* GoogleAppMeasurement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AD243AD8F900DA0871 /* GoogleAppMeasurement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04ABC6C7243AD91100DA0871 /* GoogleDataTransport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A7243AD8F700DA0871 /* GoogleDataTransport.xcframework */; };
+		04ABC6C8243AD91100DA0871 /* GoogleDataTransport.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A7243AD8F700DA0871 /* GoogleDataTransport.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		04ABC6C9243AD91300DA0871 /* GoogleDataTransportCCTSupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AF243AD8FA00DA0871 /* GoogleDataTransportCCTSupport.xcframework */; };
+		04ABC6CA243AD91300DA0871 /* GoogleDataTransportCCTSupport.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AF243AD8FA00DA0871 /* GoogleDataTransportCCTSupport.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		04ABC6CB243AD91400DA0871 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AE243AD8F900DA0871 /* GoogleUtilities.xcframework */; };
+		04ABC6CC243AD91400DA0871 /* GoogleUtilities.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AE243AD8F900DA0871 /* GoogleUtilities.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		04ABC6CD243AD91700DA0871 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AC243AD8F900DA0871 /* nanopb.xcframework */; };
+		04ABC6CE243AD91700DA0871 /* nanopb.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AC243AD8F900DA0871 /* nanopb.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		04ABC6CF243AD91A00DA0871 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A8243AD8F700DA0871 /* PromisesObjC.xcframework */; };
+		04ABC6D0243AD91A00DA0871 /* PromisesObjC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A8243AD8F700DA0871 /* PromisesObjC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04ABC68B243AC77B00DA0871 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04ABC6C2243AD90D00DA0871 /* FirebaseCoreDiagnostics.xcframework in Embed Frameworks */,
+				04ABC6C4243AD90F00DA0871 /* FirebaseInstallations.xcframework in Embed Frameworks */,
+				04ABC6C6243AD91000DA0871 /* GoogleAppMeasurement.framework in Embed Frameworks */,
+				04ABC6CE243AD91700DA0871 /* nanopb.xcframework in Embed Frameworks */,
+				04ABC6CA243AD91300DA0871 /* GoogleDataTransportCCTSupport.xcframework in Embed Frameworks */,
+				04ABC6BE243AD90A00DA0871 /* FirebaseAnalytics.framework in Embed Frameworks */,
+				04ABC6CC243AD91400DA0871 /* GoogleUtilities.xcframework in Embed Frameworks */,
+				04ABC6C8243AD91100DA0871 /* GoogleDataTransport.xcframework in Embed Frameworks */,
+				04ABC6C0243AD90C00DA0871 /* FirebaseCore.xcframework in Embed Frameworks */,
+				04ABC6BC243AD90800DA0871 /* FIRAnalyticsConnector.framework in Embed Frameworks */,
+				04ABC6D0243AD91A00DA0871 /* PromisesObjC.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		04ABC5CA243AC38300DA0871 /* FrameworkTest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +191,19 @@
 		04ABC625243AC3AE00DA0871 /* CopyPasteEmojiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CopyPasteEmojiView.xib; sourceTree = "<group>"; };
 		04ABC626243AC3AE00DA0871 /* EmojiSponsorViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiSponsorViewCell.xib; sourceTree = "<group>"; };
 		04ABC627243AC3AE00DA0871 /* AccessGrantedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessGrantedView.xib; sourceTree = "<group>"; };
+		04ABC68C243ACD6B00DA0871 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		04ABC68E243ACDA300DA0871 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		04ABC6A5243AD8F600DA0871 /* FirebaseInstallations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseInstallations.xcframework; sourceTree = "<group>"; };
+		04ABC6A6243AD8F600DA0871 /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
+		04ABC6A7243AD8F700DA0871 /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleDataTransport.xcframework; sourceTree = "<group>"; };
+		04ABC6A8243AD8F700DA0871 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
+		04ABC6A9243AD8F800DA0871 /* FirebaseCoreDiagnostics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCoreDiagnostics.xcframework; sourceTree = "<group>"; };
+		04ABC6AA243AD8F800DA0871 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		04ABC6AB243AD8F800DA0871 /* FirebaseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCore.xcframework; sourceTree = "<group>"; };
+		04ABC6AC243AD8F900DA0871 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		04ABC6AD243AD8F900DA0871 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		04ABC6AE243AD8F900DA0871 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		04ABC6AF243AD8FA00DA0871 /* GoogleDataTransportCCTSupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleDataTransportCCTSupport.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +211,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04ABC6C3243AD90F00DA0871 /* FirebaseInstallations.xcframework in Frameworks */,
+				04ABC6C5243AD91000DA0871 /* GoogleAppMeasurement.framework in Frameworks */,
+				04ABC6C7243AD91100DA0871 /* GoogleDataTransport.xcframework in Frameworks */,
+				04ABC6BF243AD90C00DA0871 /* FirebaseCore.xcframework in Frameworks */,
+				04ABC6CD243AD91700DA0871 /* nanopb.xcframework in Frameworks */,
+				04ABC6CB243AD91400DA0871 /* GoogleUtilities.xcframework in Frameworks */,
+				04ABC6BB243AD90800DA0871 /* FIRAnalyticsConnector.framework in Frameworks */,
+				04ABC6C1243AD90D00DA0871 /* FirebaseCoreDiagnostics.xcframework in Frameworks */,
+				04ABC6BD243AD90A00DA0871 /* FirebaseAnalytics.framework in Frameworks */,
+				04ABC6C9243AD91300DA0871 /* GoogleDataTransportCCTSupport.xcframework in Frameworks */,
+				04ABC6CF243AD91A00DA0871 /* PromisesObjC.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +233,7 @@
 			children = (
 				04ABC5CC243AC38300DA0871 /* FrameworkTest2 */,
 				04ABC5CB243AC38300DA0871 /* Products */,
+				04ABC669243AC77A00DA0871 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,6 +252,8 @@
 				04ABC5D5243AC3AE00DA0871 /* Sources */,
 				04ABC5CD243AC38300DA0871 /* FrameworkTest2.h */,
 				04ABC5CE243AC38300DA0871 /* Info.plist */,
+				04ABC68C243ACD6B00DA0871 /* Firebase.h */,
+				04ABC68E243ACDA300DA0871 /* module.modulemap */,
 			);
 			path = FrameworkTest2;
 			sourceTree = "<group>";
@@ -202,6 +276,17 @@
 		04ABC5D6243AC3AE00DA0871 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				04ABC6A6243AD8F600DA0871 /* FIRAnalyticsConnector.framework */,
+				04ABC6AA243AD8F800DA0871 /* FirebaseAnalytics.framework */,
+				04ABC6AB243AD8F800DA0871 /* FirebaseCore.xcframework */,
+				04ABC6A9243AD8F800DA0871 /* FirebaseCoreDiagnostics.xcframework */,
+				04ABC6A5243AD8F600DA0871 /* FirebaseInstallations.xcframework */,
+				04ABC6AD243AD8F900DA0871 /* GoogleAppMeasurement.framework */,
+				04ABC6A7243AD8F700DA0871 /* GoogleDataTransport.xcframework */,
+				04ABC6AF243AD8FA00DA0871 /* GoogleDataTransportCCTSupport.xcframework */,
+				04ABC6AE243AD8F900DA0871 /* GoogleUtilities.xcframework */,
+				04ABC6AC243AD8F900DA0871 /* nanopb.xcframework */,
+				04ABC6A8243AD8F700DA0871 /* PromisesObjC.xcframework */,
 				04ABC5D7243AC3AE00DA0871 /* Alamofire */,
 				04ABC5EA243AC3AE00DA0871 /* AmofireImage */,
 				04ABC5F5243AC3AE00DA0871 /* YLGIFImage-Swift */,
@@ -391,6 +476,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		04ABC669243AC77A00DA0871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -399,6 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04ABC5CF243AC38400DA0871 /* FrameworkTest2.h in Headers */,
+				04ABC68D243ACD6B00DA0871 /* Firebase.h in Headers */,
 				04ABC637243AC3AE00DA0871 /* Alamofire.h in Headers */,
 				04ABC643243AC3AE00DA0871 /* AlamofireImage.h in Headers */,
 			);
@@ -415,6 +508,7 @@
 				04ABC5C6243AC38300DA0871 /* Sources */,
 				04ABC5C7243AC38300DA0871 /* Frameworks */,
 				04ABC5C8243AC38300DA0871 /* Resources */,
+				04ABC68B243AC77B00DA0871 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -670,6 +764,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/FrameworkTest2/Sources/Framework";
 				INFOPLIST_FILE = FrameworkTest2/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -677,11 +772,15 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = "";
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brangerbriz.FrameworkTest2;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -694,6 +793,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/FrameworkTest2/Sources/Framework";
 				INFOPLIST_FILE = FrameworkTest2/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -701,11 +801,15 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = "";
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brangerbriz.FrameworkTest2;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};

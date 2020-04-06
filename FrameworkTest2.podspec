@@ -1,10 +1,4 @@
-#
-#  Be sure to run `pod spec lint FrameworkTest2.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
+
 
 Pod::Spec.new do |spec|
 
@@ -12,11 +6,11 @@ Pod::Spec.new do |spec|
   spec.version          = "1.0.0"
   spec.summary          = "Brangerbriz custom keyboard."
   spec.description      = "Framework Keyboard "
-  spec.homepage         = "https://github.com/jpipearagon/frameworkTest"
+  spec.homepage         = "https://github.com/jpipearagon/FrameworkTest2"
   spec.license          = "MIT"
   spec.author           = { "Felipe Aragon" => "faragon@brangerbriz.com" }
   spec.platform         = :ios, "11.0"
-  spec.source           = { :git => "https://github.com/jpipearagon/frameworkTest.git", :tag => "#{spec.version}" }
+  spec.source           = { :git => "https://github.com/jpipearagon/FrameworkTest2.git", :tag => "#{spec.version}" }
   spec.source_files     = "FrameworkTest2/**/*.{h,m,swift}"
   spec.swift_version    = "5.0"
   spec.resources        = "FrameworkTest2/**/*.{lproj,storyboard,xcdatamodeld,xib,xcassets,json,png}"
