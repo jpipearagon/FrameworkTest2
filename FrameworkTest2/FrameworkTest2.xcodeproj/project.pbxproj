@@ -75,52 +75,17 @@
 		04ABC668243AC3AE00DA0871 /* AccessGrantedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC627243AC3AE00DA0871 /* AccessGrantedView.xib */; };
 		04ABC68D243ACD6B00DA0871 /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 04ABC68C243ACD6B00DA0871 /* Firebase.h */; };
 		04ABC6BB243AD90800DA0871 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A6243AD8F600DA0871 /* FIRAnalyticsConnector.framework */; };
-		04ABC6BC243AD90800DA0871 /* FIRAnalyticsConnector.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A6243AD8F600DA0871 /* FIRAnalyticsConnector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04ABC6BD243AD90A00DA0871 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AA243AD8F800DA0871 /* FirebaseAnalytics.framework */; };
-		04ABC6BE243AD90A00DA0871 /* FirebaseAnalytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AA243AD8F800DA0871 /* FirebaseAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04ABC6BF243AD90C00DA0871 /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AB243AD8F800DA0871 /* FirebaseCore.xcframework */; };
-		04ABC6C0243AD90C00DA0871 /* FirebaseCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AB243AD8F800DA0871 /* FirebaseCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		04ABC6C1243AD90D00DA0871 /* FirebaseCoreDiagnostics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A9243AD8F800DA0871 /* FirebaseCoreDiagnostics.xcframework */; };
-		04ABC6C2243AD90D00DA0871 /* FirebaseCoreDiagnostics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A9243AD8F800DA0871 /* FirebaseCoreDiagnostics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		04ABC6C3243AD90F00DA0871 /* FirebaseInstallations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A5243AD8F600DA0871 /* FirebaseInstallations.xcframework */; };
-		04ABC6C4243AD90F00DA0871 /* FirebaseInstallations.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A5243AD8F600DA0871 /* FirebaseInstallations.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		04ABC6C5243AD91000DA0871 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AD243AD8F900DA0871 /* GoogleAppMeasurement.framework */; };
-		04ABC6C6243AD91000DA0871 /* GoogleAppMeasurement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AD243AD8F900DA0871 /* GoogleAppMeasurement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04ABC6C7243AD91100DA0871 /* GoogleDataTransport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A7243AD8F700DA0871 /* GoogleDataTransport.xcframework */; };
-		04ABC6C8243AD91100DA0871 /* GoogleDataTransport.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A7243AD8F700DA0871 /* GoogleDataTransport.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		04ABC6C9243AD91300DA0871 /* GoogleDataTransportCCTSupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AF243AD8FA00DA0871 /* GoogleDataTransportCCTSupport.xcframework */; };
-		04ABC6CA243AD91300DA0871 /* GoogleDataTransportCCTSupport.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AF243AD8FA00DA0871 /* GoogleDataTransportCCTSupport.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		04ABC6CB243AD91400DA0871 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AE243AD8F900DA0871 /* GoogleUtilities.xcframework */; };
-		04ABC6CC243AD91400DA0871 /* GoogleUtilities.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AE243AD8F900DA0871 /* GoogleUtilities.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		04ABC6CD243AD91700DA0871 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AC243AD8F900DA0871 /* nanopb.xcframework */; };
-		04ABC6CE243AD91700DA0871 /* nanopb.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6AC243AD8F900DA0871 /* nanopb.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		04ABC6CF243AD91A00DA0871 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A8243AD8F700DA0871 /* PromisesObjC.xcframework */; };
-		04ABC6D0243AD91A00DA0871 /* PromisesObjC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABC6A8243AD8F700DA0871 /* PromisesObjC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		04ABC68B243AC77B00DA0871 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				04ABC6C2243AD90D00DA0871 /* FirebaseCoreDiagnostics.xcframework in Embed Frameworks */,
-				04ABC6C4243AD90F00DA0871 /* FirebaseInstallations.xcframework in Embed Frameworks */,
-				04ABC6C6243AD91000DA0871 /* GoogleAppMeasurement.framework in Embed Frameworks */,
-				04ABC6CE243AD91700DA0871 /* nanopb.xcframework in Embed Frameworks */,
-				04ABC6CA243AD91300DA0871 /* GoogleDataTransportCCTSupport.xcframework in Embed Frameworks */,
-				04ABC6BE243AD90A00DA0871 /* FirebaseAnalytics.framework in Embed Frameworks */,
-				04ABC6CC243AD91400DA0871 /* GoogleUtilities.xcframework in Embed Frameworks */,
-				04ABC6C8243AD91100DA0871 /* GoogleDataTransport.xcframework in Embed Frameworks */,
-				04ABC6C0243AD90C00DA0871 /* FirebaseCore.xcframework in Embed Frameworks */,
-				04ABC6BC243AD90800DA0871 /* FIRAnalyticsConnector.framework in Embed Frameworks */,
-				04ABC6D0243AD91A00DA0871 /* PromisesObjC.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		04ABC5CA243AC38300DA0871 /* FrameworkTest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -508,7 +473,6 @@
 				04ABC5C6243AC38300DA0871 /* Sources */,
 				04ABC5C7243AC38300DA0871 /* Frameworks */,
 				04ABC5C8243AC38300DA0871 /* Resources */,
-				04ABC68B243AC77B00DA0871 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
